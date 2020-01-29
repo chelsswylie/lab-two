@@ -1,0 +1,161 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+  background-color: #f9fafc;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .innerLeft {
+    margin-top: 160px;
+  }
+}
+
+.navBar {
+  height: 100px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #69696a;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #69696a;
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+/* selected link */
+a:active {
+  color: #f9fafc;
+  float: right;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+/* hovered link */
+a:hover {
+  color: #f9fafc;
+  background-color: #000000;
+  float: right;
+  border-radius: 50%;
+}
+
+/* visited link */
+a:visited {
+  color: #69696a;
+  float: right;
+}
+
+/* chirpus inc. */
+.coName {
+  float: left;
+}
+
+.leftContainer {
+  flex-direction: row;
+  display: flex;
+}
+
+.innerLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  border-top: #f9fafc;
+  border-right: #f9fafc;
+  border-bottom: #f9fafc;
+  border-left: #69696a;
+  border-style: solid;
+  width: 50%;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: #69696a;
+}
+
+.coTitle {
+  padding-left: 25px;
+}
+
+.rightContainer {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+@media (max-width: 500px) {
+  .rightContainer {
+    display: none;
+  }
+}
+.pinkCircle {
+  border-radius: 120px;
+  height: 200px;
+  width: 200px;
+  opacity: 0.9;
+  position: absolute;
+  background-color: rgba(247, 136, 167, 0.6);
+  z-index: 1;
+}
+
+.orangeCircle {
+  border-radius: 120px;
+  height: 175px;
+  width: 175px;
+  opacity: 0.9;
+  position: absolute;
+  background-color: rgba(247, 193, 162, 0.7);
+  left: 10%;
+  bottom: 43%;
+  z-index: 3;
+}
+
+.purpleCircle {
+  border-radius: 120px;
+  height: 150px;
+  width: 150px;
+  opacity: 0.9;
+  position: absolute;
+  background-color: rgba(207, 130, 213, 0.6);
+  left: 15%;
+  bottom: 67%;
+  z-index: 2;
+}
+
+button {
+  width: 100px;
+  color: #f9fafc;
+  background-color: #000;
+  box-shadow: initial;
+  border-radius: 22px;
+  margin: auto;
+  padding: 10px;
+}
